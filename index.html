@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover, interactive-widget=resizes-content"
+    />
+    <meta name="theme-color" content="#05060f" />
+    <title>VELOCITYPE — Neon Typing Racer</title>
+    <meta
+      name="description"
+      content="VELOCITYPE is a neon-outrun typing racer for the browser. Words fall down the highway — type them before they cross the impact line, chain combos, charge nitro, and outrun your own record."
+    />
+    <link rel="canonical" href="https://imfufuu.github.io/velocitype/" />
+
+    <!-- Open Graph / social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="VELOCITYPE" />
+    <meta property="og:title" content="VELOCITYPE — Neon Typing Racer" />
+    <meta
+      property="og:description"
+      content="Words fall down the highway. Type them before they cross the impact line, chain combos, charge nitro, and outrun your record."
+    />
+    <meta property="og:url" content="https://imfufuu.github.io/velocitype/" />
+    <meta property="og:image" content="https://imfufuu.github.io/velocitype/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="VELOCITYPE — neon typing racer title screen" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="VELOCITYPE — Neon Typing Racer" />
+    <meta
+      name="twitter:description"
+      content="Words fall down the highway. Type them before they cross the impact line, chain combos, charge nitro, and outrun your record."
+    />
+    <meta name="twitter:image" content="https://imfufuu.github.io/velocitype/og.png" />
+
+    <!-- PWA / icons -->
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="./icon-192.png" sizes="192x192" type="image/png" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="VELOCITYPE" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&family=Rajdhani:wght@500;600;700&family=JetBrains+Mono:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html,
+      body {
+        background: #05060f;
+        overscroll-behavior: none;
+        margin: 0;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-text-size-adjust: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div
+        style="
+          position: fixed;
+          inset: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #05060f;
+          color: #cfe6ff;
+          font-family: system-ui, sans-serif;
+          font-size: 15px;
+          text-align: center;
+          padding: 24px;
+        "
+      >
+        VELOCITYPE needs JavaScript to run. Enable it and reload the page.
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
