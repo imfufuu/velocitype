@@ -1,0 +1,18 @@
+{
+  "name": "VELOCITYPE — Neon Typing Racer",
+  "short_name": "VELOCITYPE",
+  "description": "A neon-outrun typing racer. Type words before they cross the impact line, chain combos, charge nitro, and outrun your own record.",
+  "id": "velocitype",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#05060f",
+  "theme_color": "#05060f",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
